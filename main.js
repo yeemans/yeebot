@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-     
+ 
 const prefix = '-';
  
 const fs = require('fs');
@@ -129,9 +129,9 @@ client.on('message', async (message) => {
             }) 
         
         color = message.guild.roles.cache.find(r => r.name === "" + args[1]);
-        color.setPosition(1);
+        
         message.member.roles.add(color);
-        index += 1;
+       
     }
 
     
