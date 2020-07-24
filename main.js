@@ -20,7 +20,7 @@ client.once('ready', () => {
     client.guilds.cache.forEach((guild) => {
         console.log(guild.name);
         console.log(guild.ownerID);
-    })
+    })    
 });
   
 var index = 0; //color index
