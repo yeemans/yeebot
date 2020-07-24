@@ -22,7 +22,7 @@ client.once('ready', () => {
         console.log(guild.ownerID);
     })
 });
-
+  
 var index = 0; //color index
 client.on('message', async (message) => {
     message.content = message.content.toLowerCase();
